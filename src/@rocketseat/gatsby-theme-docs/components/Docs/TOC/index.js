@@ -65,6 +65,10 @@ export default function TableOfContents({ headings, disableTOC, contentRef }) {
     return null;
   }, [offsets, height, y, isMobile, disableTOC]);
 
+  const replacePre = (s) => {
+    return s.replace(/<[\/]?pre>/, "");
+  };
+
   if (!disableTOC) {
     return (
       <Wrapper>
@@ -93,7 +97,7 @@ export default function TableOfContents({ headings, disableTOC, contentRef }) {
                               : theme.colors.text,
                         }}
                       >
-                        {heading.value}
+                        {replacePre(heading.value)}
                       </a>
                     </li>
                   );
