@@ -18,7 +18,7 @@ import { withFirebase } from '@staqjs/client'
 The `firebase` prop supplied by `withFirebase` supports the following
 properties.
 
-## doCreateUserWithEmailAndPassword
+## <pre>doCreateUserWithEmailAndPassword</pre>
 
 **type:** function
 
@@ -31,7 +31,7 @@ to create a new user. It returns a Promise which contains the new user
 if successful, and an error if unsuccessful.
 
 
-## doSignInWithEmailAndPassword
+## <pre>doSignInWithEmailAndPassword</pre>
 
 **type:** function
 
@@ -47,7 +47,7 @@ a
 and if not successful, and an error if the login was not successful.
 
 
-## doSignOut
+## <pre>doSignOut</pre>
 
 **type:** function
 
@@ -56,7 +56,7 @@ and if not successful, and an error if the login was not successful.
 This function signs the user out.
 
 
-## doPasswordReset
+## <pre>doPasswordReset</pre>
 
 **type:** function
 
@@ -68,7 +68,7 @@ by calling the
 method of Firebase Auth.
 
 
-## doPasswordUpdate
+## <pre>doPasswordUpdate</pre>
 
 **type:** function
 
@@ -79,7 +79,7 @@ This function updates the user's password by calling the
 method of the currently signed in user.
 
 
-## doSendEmailVerification
+## <pre>doSendEmailVerification</pre>
 
 **type:** function
 
@@ -90,7 +90,7 @@ user. The [BaseUrl](/api/init-staq#baseurl) Staq.js configuration
 parameter is used for the callback link.
 
 
-## onAuthUserListener
+## <pre>onAuthUserListener</pre>
 
 **type:** function
 
@@ -104,7 +104,7 @@ When the current user is signed out, this function will call
 `fallback` with no arguments.
 
 
-## user
+## <pre>user</pre>
 
 **type:** function
 
@@ -115,7 +115,7 @@ Returns a
 to the document at path `uid` in the `users` collection.
 
 
-## users
+## <pre>users</pre>
 
 **type:** function
 
@@ -126,7 +126,7 @@ Returns a
 to the `users` collection.
 
 
-## collection
+## <pre>collection</pre>
 
 **type:** function
 
@@ -137,7 +137,7 @@ Returns a
 to the collection named by `collectionName`.
 
 
-## collectionForUser
+## <pre>collectionForUser</pre>
 
 **type:** function
 
@@ -149,7 +149,7 @@ that resolves to documents in the collection given by `collectionName`
 that have a `uid` property equal to the given `uid`.
 
 
-## document
+## <pre>document</pre>
 
 **type:** function
 
@@ -160,7 +160,7 @@ Returns a
 for the document in `collectionName` having `documentId`.
 
 
-## addDocumentForUser
+## <pre>addDocumentForUser</pre>
 
 **type:** function
 
@@ -170,7 +170,7 @@ Adds the given document to the collection given by `collectionName`,
 and injects a "uid" property and sets the value to `uid`.
 
 
-## updateDocument
+## <pre>updateDocument</pre>
 
 **type:** function
 
