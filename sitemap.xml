@@ -4,15 +4,15 @@
 <url> <loc>https://staqjs.com/changelog</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://staqjs.com/usage/creating-docs</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://staqjs.com/getting-started</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://staqjs.com/faq</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://staqjs.com/api/get-stripe-checkout-session</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://staqjs.com/usage/shadowing</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://staqjs.com/usage/navigation</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://staqjs.com/components/hero</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://staqjs.com/api/with-auth</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://staqjs.com/components/private-route</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://staqjs.com/api/init-staq</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://staqjs.com/api/get-stripe-checkout-session</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://staqjs.com/api/with-auth</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://staqjs.com/api/with-stripe</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://staqjs.com/api/with-firebase</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 <url> <loc>https://staqjs.com/api/with-staq</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
-<url> <loc>https://staqjs.com/faq</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
+<url> <loc>https://staqjs.com/api/with-stripe</loc> <changefreq>daily</changefreq> <priority>0.7</priority> </url>
 </urlset>
