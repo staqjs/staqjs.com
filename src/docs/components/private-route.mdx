@@ -1,0 +1,23 @@
+---
+title: PrivateRoute
+---
+
+A wrapper around `<Route>` that will render its component argument if the user is signed in, and redirect to /signin otherwise.
+
+The arguments to `PrivateRoute` are the same as those to `Route`, except render cannot be used with `PrivateRoute`.
+
+```jsx
+// Create a publicly accessible landing page, and a user settings page that
+// can only be accessed once a user is logged in
+
+import { PrivateRoute } from '@staqjs/client'
+
+...
+
+return (
+  <Router>
+    <Route exact path="/" component={LandingPage} />
+    <PrivateRoute path="/user-settings" component={UserSettingsPage} />
+  </Router>
+)
+```

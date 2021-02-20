@@ -1,0 +1,30 @@
+# Sidebar navigation
+
+- label: 'Home'
+  link: '/'
+- label: 'Getting started'
+  link: '/getting-started'
+- label: Community
+  items:
+    - label: 'Github'
+      link: https://github.com/staqjs/staq
+    - label: 'npm'
+      link: https://www.npmjs.com/org/staqjs
+- label: API Reference
+  items:
+    - label: 'initStaq'
+      link: /api/init-staq
+    - label: 'withAuth'
+      link: /api/with-auth
+    - label: 'withFirebase'
+      link: /api/with-firebase
+    - label: 'withStaq'
+      link: /api/with-staq
+    - label: 'withStripe'
+      link: /api/with-stripe
+    - label: 'getStripeCheckoutSession'
+      link: /api/get-stripe-checkout-session
+- label: Templates
+  items:
+    - label: One
+      link: '/templates/one'
