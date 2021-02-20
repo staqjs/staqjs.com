@@ -66,7 +66,7 @@ export default function TableOfContents({ headings, disableTOC, contentRef }) {
   }, [offsets, height, y, isMobile, disableTOC]);
 
   const replacePre = (s) => {
-    return s.replace(/<[\/]?pre>/, "");
+    return s.replaceAll(/<[\/]?pre>/, "");
   };
 
   if (!disableTOC) {
