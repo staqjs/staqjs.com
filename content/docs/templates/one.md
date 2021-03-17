@@ -14,7 +14,7 @@ toc: true
 ---
 
 
-<img src="/one-scrot.png" style="box-shadow: 0 8px 24px rgba(34,40,47,.12);" width="380px" height="515px" />
+![one-scrot](/one-scrot.png)
 
 
 ## Template Overview
