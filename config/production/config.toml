@@ -1,1 +1,2 @@
 baseurl = "https://staqjs.github.io/staqjs.com/"
+canonifyURLs = true
