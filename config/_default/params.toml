@@ -4,7 +4,7 @@
 title = "Staq.js"
 titleSeparator = "-"
 titleAddition = "A JavaScript Library for building SaaS products"
-description = "Staq.js is a React library that comes with tools for building software people pay you for"
+description = "Staq.js is a JavaScript library for building software that makes you money"
 
 ## Open Graph + Twitter Cards
 images = ["doks.png"]

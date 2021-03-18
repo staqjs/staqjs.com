@@ -23,11 +23,11 @@
       </div>
       <div class="col-lg-5">
         <h2 class="h4">User Ready</h2>
-        <p>Staq.js ships with code and UI to handle user registration, log in, log out, and password reset flows</p>
+        <p>Staq ships with code and UI to handle user registration, log in, log out, and password reset flows</p>
       </div>
       <div class="col-lg-5">
         <h2 class="h4">Easy Payments</h2>
-        <p>Integrate one-time purchases or subscription billing with Stripe into your site with just a few lines of code</p>
+        <p>Integrate one-time purchases or subscription billing into your site with just a few lines of code</p>
       </div>
     </div>
     <!-- <div class="row justify-content-center text-center">
@@ -147,6 +147,52 @@ initStaq({
 	<p>
 	  Every one of the many built-in templates lets you customize the colorscheme and marketing copy to fit your brand.
 	</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-sm">
+  <div class="container">
+    <div class="row justify-content-around text-left">
+      <div class="col-lg-5">
+        <h2 class="h4">Convenient</h2>
+
+	<p>
+	  Use Staq to access the logged in user from anywhere in your application, along with interfaces for interacting with Stripe and Firebase.
+	</p>
+      </div>
+      <div class="col-lg-9">
+
+	<pre>
+	  <code class="lang-jsx">
+import { compose } from 'recompose'
+import { withAuth, withFirebase, withStripe } from '@staqjs/client'
+
+function UserProfileBase() {
+  const { auth, firebase, stripe } = props
+
+  return (
+    &lt;div&gt;
+      {/* ... */}
+
+      &lt;p&gt;Hello { auth.currentUser.name }&lt;/p&gt;
+
+      {/* ... */}
+    &lt;/div&gt;
+  )
+}
+
+const UserProfile = compose(
+  withAuth,
+  withFirebase,
+  withStripe
+)(UserProfileBase)
+
+export default UserProfile
+	  </code>
+	</pre>
+
       </div>
     </div>
   </div>
