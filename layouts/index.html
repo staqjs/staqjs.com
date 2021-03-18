@@ -78,18 +78,19 @@
 <section class="section section-sm">
   <div class="container">
     <div class="row justify-content-around text-left">
-      <div class="col-lg-7">
+      <div class="col-lg-5">
         <h2 class="h4">Batteries Included</h2>
 
 	<p>
 	  The <code>StaqRoutes</code> component that ships with the library will render all the routes users expect in a modern SaaS application. This code is all you need to install a professional-grade responsive landing page, along with support for user registration, sign in/sign out, and password reset flows.
 	</p>
       </div>
-
-      <div class="col-lg-7">
+      <div class="col-lg-9">
 
 	<pre>
 	  <code class="lang-jsx">
+// App.jsx
+
 import { BrowserRouter as Router } from 'react-router-dom'
 import { StaqRoutes } from '@staqjs/client'
 
@@ -105,6 +106,47 @@ export default App
 	  </code>
 	</pre>
 
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section-sm">
+  <div class="container">
+    <div class="row row-reverse justify-content-around text-left">
+      <div class="col-lg-9">
+	<pre>
+	  <code class="lang-jsx">
+// index.js
+
+import { initStaq } from '@staqjs/client'
+
+initStaq({
+  SiteTitle: 'My Site',
+  Template: {
+    Name: 'One',
+    Config: {
+      Hero: {
+        PrimaryText: 'Business Analytics like you\'ve never seen',
+        SecondaryText: 'Improve your metrics with the click of a button',
+        PrimaryLink: { Text: 'Get Started', To: '/signup' },
+        SecondaryLink: { Text: 'Learn More', To: '/about' },
+        Image: '/path/to/hero.png'
+      }
+    }
+  }
+})
+	  </code>
+	</pre>
+
+      </div>
+
+      <div class="col-lg-5">
+        <h2 class="h4">Configurable</h2>
+
+	<p>
+	  Every one of the many built-in templates lets you customize the colorscheme and marketing copy to fit your brand.
+	</p>
       </div>
     </div>
   </div>
