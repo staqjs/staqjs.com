@@ -45,7 +45,7 @@ initStaq({
 import { compose } from 'recompose'
 import { withAuth, withFirebase, withStripe } from '@staqjs/client'
 
-function UserProfileBase() {
+function UserProfileBase(props) {
   const { auth, firebase, stripe } = props
 
   return (
